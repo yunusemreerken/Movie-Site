@@ -1,0 +1,107 @@
+/* colors variables start*/
+:root {
+	--main-color: #e4d804;
+	--second-color: #20212b;
+}
+/* colors variables end*/
+
+body {
+	background-image: url("/images/banner_bg01.jpg");
+	
+}
+
+/*butons*/
+.btn-yellow{
+	 color: var(--main-color) !important;
+}
+/*butons*/
+
+
+header .navbar button{
+	color: #fff;
+	border: none;
+}
+header .navbar button:hover{
+  color: var(--main-color);
+}
+
+/*logo start*/
+
+header .navbar {
+	margin: 1.5rem;
+}
+header .navbar-search {
+}
+
+/* logo end  */
+
+header .navbar .navbar-search{
+	color: #fff;
+}
+
+header .btn-signin{
+	color: #fff;
+	border: 1px solid var(--main-color) !important;
+	border-radius: 3rem;
+	background-color: var(--second-color);
+	padding: 0.7rem 3rem;
+
+}
+header .btn-signin:hover{
+	color: var(--second-color) !important;
+	background-color: var(--main-color);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap 
+*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+body {
+    background-color: #fff;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    body {
+        background-color: pink;
+    }
+    
+    }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
